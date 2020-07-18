@@ -10,7 +10,11 @@
 cat .git/HEAD
 ```
 
+### 放弃本地修改，直接用远程代码覆盖本地
 
+1.git fetch --all
+
+2.git retset --hard origin/master
 
 ## github
 
@@ -20,3 +24,13 @@ cat .git/HEAD
 2. 将这个目录下的`id_rsa.pub`中的内容全部复制出来，用于在github上新建sshkey时添加内容
 3. github上新建sshkey
 4. `ssh -T git@github.com`测试是否添加成功
+
+
+
+## git for windows
+
+### MINGW64 git status中文乱乱码
+
+1. git config --global core.quotepath false
+2. 关闭窗口
+3. 重新打开窗口
