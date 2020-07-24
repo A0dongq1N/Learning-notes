@@ -16,6 +16,10 @@ cat .git/HEAD
 
 2.git retset --hard origin/master
 
+### 同步远程分支到本地，同时创建本地分支
+
+1.git checkout -b register_server_V001     /origin/register_server_V001
+
 ## github
 
 ### 如何添加sshkey到github
