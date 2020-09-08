@@ -20,6 +20,14 @@ cat .git/HEAD
 
 1.git checkout -b register_server_V001     /origin/register_server_V001
 
+### git 免密码操作
+
+```shell
+git config --global credential.helper store
+```
+
+
+
 ## github
 
 ### 如何添加sshkey到github
